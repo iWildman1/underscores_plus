@@ -1,0 +1,20 @@
+/* Main SCSS file for Sass organisation. Import any .sass/.scss partials into here, and this will be processed to form the CSS for the theme.
+ * If you wish to keep any comments, place an ! after the first comment marker. Otherwise, the SCSS processing will remove it.
+ */
+
+/*!
+Theme Name: my-theme
+Theme URI: http://underscores.me/
+Author: Daniel Wildman
+Author URI: http://github.com/iwildman1/
+Description: The Underscores Starter Theme for WordPress, with automatic support for Gulp, BrowserSync, Sass and Autoprefixer
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-theme
+Tags:
+
+*/
+
+@import './partials/_wordpress-default.scss';
+@import './partials/_main-content.scss';
